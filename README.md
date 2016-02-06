@@ -1,4 +1,3 @@
-# Basic Project
-## This file is modified to include a link to google site
+# Pet-Vet 
+## Pet-vet program using classes and subclasses
 
-[Google](https://google.com)
