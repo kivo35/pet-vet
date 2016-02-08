@@ -12,7 +12,7 @@ public class Dog extends Mammal
 	private boolean performsAtShows;
 	private boolean wolfBreed;
 	private String serviceType;
-	public boolean isPerformsAtShows()
+	public boolean PerformsAtShows()
 	{
 		return performsAtShows;
 	}
@@ -20,7 +20,7 @@ public class Dog extends Mammal
 	{
 		this.performsAtShows = performsAtShows;
 	}
-	public boolean isWolfBreed()
+	public boolean WolfBreed()
 	{
 		return wolfBreed;
 	}

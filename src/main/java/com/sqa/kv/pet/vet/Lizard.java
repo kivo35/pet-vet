@@ -11,20 +11,24 @@ public class Lizard extends Reptile
 {
 	private boolean lostTail;
 	private boolean changeColor;
-	public boolean isLostTail()
+
+	public boolean ChangeColor()
 	{
-		return lostTail;
+		return this.changeColor;
 	}
-	public void setLostTail(boolean lostTail)
+
+	public boolean LostTail()
 	{
-		this.lostTail = lostTail;
+		return this.lostTail;
 	}
-	public boolean isChangeColor()
-	{
-		return changeColor;
-	}
+
 	public void setChangeColor(boolean changeColor)
 	{
 		this.changeColor = changeColor;
+	}
+
+	public void setLostTail(boolean lostTail)
+	{
+		this.lostTail = lostTail;
 	}
 }

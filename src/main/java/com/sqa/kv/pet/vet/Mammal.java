@@ -7,7 +7,7 @@ package com.sqa.kv.pet.vet;
  * @author Kirill
  * 
  */
-public class Mammal extends PetVet
+public class Mammal extends Pet
 {
 	private boolean rabbiesShot;
 	private boolean houseBroken;
